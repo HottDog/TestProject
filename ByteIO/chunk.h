@@ -4,7 +4,7 @@
 #include"tool.h"
 using namespace std;
 enum ChunkType {
-	DEFAULT,IHDR, IDAT,cHRM,PLTE,gAMA,sRGB
+	DEFAULT,IHDR, IDAT,cHRM,PLTE,gAMA,sRGB,tEXt
 };
 class Chunk {
 public :

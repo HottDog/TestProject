@@ -72,6 +72,9 @@
     <ClCompile Include="sRGBChunk.cpp">
       <Filter>源文件\chunk</Filter>
     </ClCompile>
+    <ClCompile Include="tEXtChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -123,6 +126,9 @@
       <Filter>头文件\chunk</Filter>
     </ClInclude>
     <ClInclude Include="sRGBChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="tEXtChunk.h">
       <Filter>头文件\chunk</Filter>
     </ClInclude>
   </ItemGroup>

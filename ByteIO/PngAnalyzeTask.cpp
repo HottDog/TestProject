@@ -34,7 +34,7 @@ bool ReadPNG(const char * file) {
 	cout << "length:"<< length<<endl;
 	if (Compare(sign,IHDR_SIGN,4)) {
 		chunk = new IHDRChunk(length, IHDR);
-		cout << "It is IHDR," << "length:" << length << endl;
+		cout << "--------数据块" << Char2String(sign, 4) << "------length:" << length << "-----------" << endl;
 		chunk->Process(f);
 	}
 	//读取其他数据块

@@ -1,5 +1,6 @@
 #include"chunktool.h"
 #include"sRGBChunk.h"
+#include"tEXtChunk.h"
 Chunk* CreateChunk(const char * sign, int length) {
 	Chunk * result = nullptr;
 	if (Compare(sign, IHDR_SIGN, 4)) {
@@ -19,6 +20,9 @@ Chunk* CreateChunk(const char * sign, int length) {
 	}
 	else if (Compare(sign, sRGB_SIGN, 4)) {
 		result = new sRGBChunk(length, sRGB);
+	}
+	else if (Compare(sign, tEXt_SIGN, 4)) {
+		result = new tEXtChunk(length, tEXt);
 	}
 	else {
 		result = new Chunk(length, DEFAULT);

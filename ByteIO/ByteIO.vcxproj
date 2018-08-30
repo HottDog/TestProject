@@ -129,6 +129,7 @@
     <ClCompile Include="test2.cpp" />
     <ClCompile Include="testclass.cpp" />
     <ClCompile Include="testtask.cpp" />
+    <ClCompile Include="tEXtChunk.cpp" />
     <ClCompile Include="tool.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +149,7 @@
     <ClInclude Include="test2.h" />
     <ClInclude Include="testclass.h" />
     <ClInclude Include="testtask.h" />
+    <ClInclude Include="tEXtChunk.h" />
     <ClInclude Include="tool.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
