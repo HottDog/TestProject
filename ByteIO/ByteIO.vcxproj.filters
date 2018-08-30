@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\task">
+      <UniqueIdentifier>{937fdb47-9c49-45d3-9e42-cb257deda98d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\task">
+      <UniqueIdentifier>{69dadb01-b866-4842-a331-12a5b2430824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\chunk">
+      <UniqueIdentifier>{54e19f44-e185-410c-8d3d-dfe0a9547f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chunk">
+      <UniqueIdentifier>{e1673d63-3bfa-4cac-91a4-ed99374f1f62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="IHDRChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="iotask.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="PngAnalyzeTask.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="testtask.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="testclass.cpp">
+      <Filter>源文件\task</Filter>
+    </ClCompile>
+    <ClCompile Include="PLTEChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="cHRMChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="test1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chunktool.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="gAMAChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="sRGBChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="IHDRChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="iotask.h">
+      <Filter>头文件\task</Filter>
+    </ClInclude>
+    <ClInclude Include="itask.h">
+      <Filter>头文件\task</Filter>
+    </ClInclude>
+    <ClInclude Include="PngAnalyzeTask.h">
+      <Filter>头文件\task</Filter>
+    </ClInclude>
+    <ClInclude Include="testtask.h">
+      <Filter>头文件\task</Filter>
+    </ClInclude>
+    <ClInclude Include="testclass.h">
+      <Filter>头文件\task</Filter>
+    </ClInclude>
+    <ClInclude Include="PLTEChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="cHRMChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chunktool.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="test1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gAMAChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="sRGBChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
