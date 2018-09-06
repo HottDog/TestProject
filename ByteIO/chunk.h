@@ -4,14 +4,13 @@
 #include"tool.h"
 using namespace std;
 enum ChunkType {
-	DEFAULT,IHDR, IDAT,cHRM,PLTE,gAMA,sRGB,tEXt
+	DEFAULT,IHDR, IDAT,cHRM,PLTE,gAMA,sRGB,tEXt,bKGD,pHYs
 };
 class Chunk {
 public :
 	Chunk(int length,ChunkType type);
 	virtual ~Chunk();
 	virtual void Process(ifstream& f);
-	
 protected:
 	int _mLength;
 	ChunkType _mType ;

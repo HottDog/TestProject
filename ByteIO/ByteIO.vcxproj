@@ -115,15 +115,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="bKGDChunk.cpp" />
     <ClCompile Include="cHRMChunk.cpp" />
     <ClCompile Include="chunk.cpp" />
     <ClCompile Include="chunktool.cpp" />
     <ClCompile Include="gAMAChunk.cpp" />
+    <ClCompile Include="GreyScalebKGDData.cpp" />
+    <ClCompile Include="haffmancode.cpp" />
     <ClCompile Include="IHDRChunk.cpp" />
+    <ClCompile Include="indexbKGDData.cpp" />
     <ClCompile Include="iotask.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="pHYsChunk.cpp" />
     <ClCompile Include="PLTEChunk.cpp" />
     <ClCompile Include="PngAnalyzeTask.cpp" />
+    <ClCompile Include="PNGInfo.cpp" />
+    <ClCompile Include="rgbbKGDData.cpp" />
     <ClCompile Include="sRGBChunk.cpp" />
     <ClCompile Include="test1.cpp" />
     <ClCompile Include="test2.cpp" />
@@ -133,17 +140,25 @@
     <ClCompile Include="tool.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bKGDChunk.h" />
+    <ClInclude Include="bKGDData.h" />
     <ClInclude Include="cHRMChunk.h" />
     <ClInclude Include="chunk.h" />
     <ClInclude Include="chunktool.h" />
     <ClInclude Include="DataTool.h" />
     <ClInclude Include="gAMAChunk.h" />
+    <ClInclude Include="greyscalebKGDData.h" />
+    <ClInclude Include="haffmancode.h" />
     <ClInclude Include="IHDRChunk.h" />
+    <ClInclude Include="indexbKGDData.h" />
     <ClInclude Include="iotask.h" />
     <ClInclude Include="itask.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="pHYsChunk.h" />
     <ClInclude Include="PLTEChunk.h" />
     <ClInclude Include="PngAnalyzeTask.h" />
+    <ClInclude Include="PNGInfo.h" />
+    <ClInclude Include="rgbbKGDData.h" />
     <ClInclude Include="sRGBChunk.h" />
     <ClInclude Include="test1.h" />
     <ClInclude Include="test2.h" />

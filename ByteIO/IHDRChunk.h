@@ -36,6 +36,7 @@ public:
 	};
 public:
 	IHDRChunk(int length, ChunkType type);
+	ChunkData GetData();
 private:
 	ChunkData _mData;
 

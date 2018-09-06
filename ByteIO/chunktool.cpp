@@ -1,7 +1,9 @@
 #include"chunktool.h"
 #include"sRGBChunk.h"
 #include"tEXtChunk.h"
-Chunk* CreateChunk(const char * sign, int length) {
+#include"bKGDChunk.h"
+#include"pHYsChunk.h"
+Chunk* CreateChunk(const char * sign, int length,IHDRChunk::ChunkData head) {
 	Chunk * result = nullptr;
 	if (Compare(sign, IHDR_SIGN, 4)) {
 		//´´½¨IHDR
@@ -23,6 +25,12 @@ Chunk* CreateChunk(const char * sign, int length) {
 	}
 	else if (Compare(sign, tEXt_SIGN, 4)) {
 		result = new tEXtChunk(length, tEXt);
+	}
+	else if (Compare(sign, bKGD_SIGN, 4)) {
+		result = new bKGDChunk(length, bKGD, head.colorType);
+	}
+	else if (Compare(sign, pHYs_SIGN, 4)) {
+		result = new pHYsChunk(length, pHYs);
 	}
 	else {
 		result = new Chunk(length, DEFAULT);

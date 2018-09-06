@@ -19,3 +19,7 @@ void IHDRChunk::_ParseData() {
 	_mData.interlace = (int)_mContent[12];
 	_mData.print();
 }
+
+IHDRChunk::ChunkData IHDRChunk::GetData() {
+	return _mData;
+}

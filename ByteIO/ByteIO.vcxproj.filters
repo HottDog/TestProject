@@ -25,6 +25,12 @@
     <Filter Include="源文件\chunk">
       <UniqueIdentifier>{e1673d63-3bfa-4cac-91a4-ed99374f1f62}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\chunk\bKGDData">
+      <UniqueIdentifier>{71a346f2-b7ba-421d-af66-d4364c9f9a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chunk\bKGDData">
+      <UniqueIdentifier>{64b32504-e834-4497-ad78-862f8a4f7cf7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -74,6 +80,27 @@
     </ClCompile>
     <ClCompile Include="tEXtChunk.cpp">
       <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="PNGInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bKGDChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="GreyScalebKGDData.cpp">
+      <Filter>源文件\chunk\bKGDData</Filter>
+    </ClCompile>
+    <ClCompile Include="indexbKGDData.cpp">
+      <Filter>源文件\chunk\bKGDData</Filter>
+    </ClCompile>
+    <ClCompile Include="rgbbKGDData.cpp">
+      <Filter>源文件\chunk\bKGDData</Filter>
+    </ClCompile>
+    <ClCompile Include="pHYsChunk.cpp">
+      <Filter>源文件\chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="haffmancode.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +157,30 @@
     </ClInclude>
     <ClInclude Include="tEXtChunk.h">
       <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="PNGInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bKGDChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="bKGDData.h">
+      <Filter>头文件\chunk\bKGDData</Filter>
+    </ClInclude>
+    <ClInclude Include="greyscalebKGDData.h">
+      <Filter>头文件\chunk\bKGDData</Filter>
+    </ClInclude>
+    <ClInclude Include="rgbbKGDData.h">
+      <Filter>头文件\chunk\bKGDData</Filter>
+    </ClInclude>
+    <ClInclude Include="indexbKGDData.h">
+      <Filter>头文件\chunk\bKGDData</Filter>
+    </ClInclude>
+    <ClInclude Include="pHYsChunk.h">
+      <Filter>头文件\chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="haffmancode.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,9 +1,11 @@
 #pragma once
+#include"IHDRChunk.h"
 class PNGInfo {
 public :
-	static PNGInfo GetSingleton();
-	int colorType;
+	static PNGInfo* GetSingleton();
+	IHDRChunk::ChunkData headData;
+	~PNGInfo();
 private :
 	PNGInfo();
-	static PNGInfo _mSingleton;
+	static PNGInfo* _mSingleton;
 };

@@ -5,4 +5,4 @@
 #include"cHRMChunk.h"
 #include"PLTEChunk.h"
 #include"gAMAChunk.h"
-Chunk* CreateChunk(const char * sign, int length);
+Chunk* CreateChunk(const char * sign, int length,IHDRChunk::ChunkData head);
