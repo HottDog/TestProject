@@ -119,6 +119,7 @@
     <ClCompile Include="cHRMChunk.cpp" />
     <ClCompile Include="chunk.cpp" />
     <ClCompile Include="chunktool.cpp" />
+    <ClCompile Include="fileprocessor.cpp" />
     <ClCompile Include="gAMAChunk.cpp" />
     <ClCompile Include="GreyScalebKGDData.cpp" />
     <ClCompile Include="haffmancode.cpp" />
@@ -146,6 +147,7 @@
     <ClInclude Include="chunk.h" />
     <ClInclude Include="chunktool.h" />
     <ClInclude Include="DataTool.h" />
+    <ClInclude Include="fileprocessor.h" />
     <ClInclude Include="gAMAChunk.h" />
     <ClInclude Include="greyscalebKGDData.h" />
     <ClInclude Include="haffmancode.h" />

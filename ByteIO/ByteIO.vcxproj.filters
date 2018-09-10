@@ -102,6 +102,9 @@
     <ClCompile Include="haffmancode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fileprocessor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -180,6 +183,9 @@
       <Filter>头文件\chunk</Filter>
     </ClInclude>
     <ClInclude Include="haffmancode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fileprocessor.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
